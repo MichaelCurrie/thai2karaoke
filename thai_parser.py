@@ -40,7 +40,7 @@ class thai_consonant:
         pass
 
     @property
-    def is_dead:
+    def is_dead(self):
         """ Also known as 'plosive', as opposed to live, or 'sonorant'
         Returns boolean
         """
