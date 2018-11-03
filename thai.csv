@@ -1,129 +1,129 @@
-﻿;;Unicode;Type;Alphabetical Order;Symbol;Canonical Example;RTGS;Meaning;RGTS (Initial);RGTS (Final);IPA (Initial);IPA (Final);Class;Long or Short;Obsolete?;Notes;Consonant Ending;Dead or Live;Type;Grapheme position
-U+0E0;0;U+0E00;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E0;1;U+0E01;Consonant;1;ก;ไก่;ko kai;chicken;k;k;[k];[k̚];mid;;;;k;Dead;plosive;
-U+0E0;2;U+0E02;Consonant;2;ข;ไข่;kho khai;egg;kh;k;[kʰ];[k̚];high;;;;k;Dead;plosive;
-U+0E0;3;U+0E03;Consonant;3;ฃ;ขวด;kho khuat;bottle (obsolete);kh;k;[kʰ];[k̚];high;;Yes;;Obsolete;;;
-U+0E0;4;U+0E04;Consonant;4;ค;ควาย;kho khwai;buffalo;kh;k;[kʰ];[k̚];low;;;;k;Dead;plosive;
-U+0E0;5;U+0E05;Consonant;5;ฅ;คน;kho khon;person (obsolete);kh;k;[kʰ];[k̚];low;;Yes;;Obsolete;;;
-U+0E0;6;U+0E06;Consonant;6;ฆ;ระฆัง;kho ra-khang;bell;kh;k;[kʰ];[k̚];low;;;;k;Dead;plosive;
-U+0E0;7;U+0E07;Consonant;7;ง;งู;ngo ngu;snake;ng;ng;[ŋ];[ŋ];low;;;;ng;Live;sonorant;
-U+0E0;8;U+0E08;Consonant;8;จ;จาน;cho chan;plate;ch;t;[tɕ];[t̚];mid;;;;t;Dead;plosive;
-U+0E0;9;U+0E09;Consonant;9;ฉ;ฉิ่ง;cho ching;cymbals;ch; –;[tɕʰ];–;high;;;;Invalid;Invalid;Invalid;
-U+0E0;A;U+0E0A;Consonant;10;ช;ช้าง;cho chang;elephant;ch;t;[tɕʰ];[t̚];low;;;;t;Dead;plosive;
-U+0E0;B;U+0E0B;Consonant;11;ซ;โซ่;so so;chain;s;t;[s];[t̚];low;;;;UNKNOWN;;;
-U+0E0;C;U+0E0C;Consonant;12;ฌ;เฌอ;cho choe;tree;ch; –;[tɕʰ];–;low;;;;t;Dead;plosive;
-U+0E0;D;U+0E0D;Consonant;13;ญ;หญิง;yo ying;woman;y;n;[j];[n];low;;;;n;Live;sonorant;
-U+0E0;E;U+0E0E;Consonant;14;ฎ;ชฎา;do cha-da;headdress;d;t;[d];[t̚];mid;;;;t;Dead;plosive;
-U+0E0;F;U+0E0F;Consonant;15;ฏ;ปฏัก;to pa-tak;goad, javelin;t;t;[t];[t̚];mid;;;;t;Dead;plosive;
-U+0E1;0;U+0E10;Consonant;16;ฐ;ฐาน;tho than;pedestal;th;t;[tʰ];[t̚];high;;;;t;Dead;plosive;
-U+0E1;1;U+0E11;Consonant;17;ฑ;มณโฑ;tho montho;Montho, character from Ramayana;th;t;[tʰ];[t̚];low;;;;t;Dead;plosive;
-U+0E1;2;U+0E12;Consonant;18;ฒ;ผู้เฒ่า;tho phu-thao;elder;th;t;[tʰ];[t̚];low;;;;t;Dead;plosive;
-U+0E1;3;U+0E13;Consonant;19;ณ;เณร;no nen;samanera;n;n;[n];[n];low;;;;n;Live;sonorant;
-U+0E1;4;U+0E14;Consonant;20;ด;เด็ก;do dek;child;d;t;[d];[t̚];mid;;;;t;Dead;plosive;
-U+0E1;5;U+0E15;Consonant;21;ต;เต่า;to tao;turtle;t;t;[t];[t̚];mid;;;;t;Dead;plosive;
-U+0E1;6;U+0E16;Consonant;22;ถ;ถุง;tho thung;sack;th;t;[tʰ];[t̚];high;;;;t;Dead;plosive;
-U+0E1;7;U+0E17;Consonant;23;ท;ทหาร;tho thahan;soldier;th;t;[tʰ];[t̚];low;;;;t;Dead;plosive;
-U+0E1;8;U+0E18;Consonant;24;ธ;ธง;tho thong;flag;th;t;[tʰ];[t̚];low;;;;t;Dead;plosive;
-U+0E1;9;U+0E19;Consonant;25;น;หนู;no nu;mouse;n;n;[n];[n];low;;;;n;Live;sonorant;
-U+0E1;A;U+0E1A;Consonant;26;บ;ใบไม้;bo baimai;leaf;b;p;[b];[p̚];mid;;;;p;Dead;plosive;
-U+0E1;B;U+0E1B;Consonant;27;ป;ปลา;po pla;fish;p;p;[p];[p̚];mid;;;;p;Dead;plosive;
-U+0E1;C;U+0E1C;Consonant;28;ผ;ผึ้ง;pho phueng;bee;ph; –;[pʰ];–;high;;;;Invalid;Invalid;Invalid;
-U+0E1;D;U+0E1D;Consonant;29;ฝ;ฝา;fo fa;lid;f; –;[f];–;high;;;;Invalid;Invalid;Invalid;
-U+0E1;E;U+0E1E;Consonant;30;พ;พาน;pho phan;phan;ph;p;[pʰ];[p̚];low;;;;p;Dead;plosive;
-U+0E1;F;U+0E1F;Consonant;31;ฟ;ฟัน;fo fan;teeth;f;p;[f];[p̚];low;;;;p;Dead;plosive;
-U+0E2;0;U+0E20;Consonant;32;ภ;สำเภา;pho sam-phao;Junk;ph;p;[pʰ];[p̚];low;;;;UNKNOWN;;;
-U+0E2;1;U+0E21;Consonant;33;ม;ม้า;mo ma;horse;m;m;[m];[m];low;;;;m;Live;sonorant;
-U+0E2;2;U+0E22;Consonant;34;ย;ยักษ์;yo yak;giant, yaksha;y;– ;[j];– ;low;;;;y;Live;approximant;
-U+0E2;3;U+0E23;Consonant;35;ร;เรือ;ro ruea;boat;r;n;[r];[n];low;;;;n;Live;sonorant;
-U+0E2;4;U+0E24;Vowel;;ฤ;;;;rue;;;;;Conditional;;Short unless followed by 45;;;;
-U+0E2;5;U+0E25;Consonant;36;ล;ลิง;lo ling;monkey;l;n;[l];[n];low;;;;n;Live;sonorant;
-U+0E2;6;U+0E26;Vowel;;ฦ;;;;lue;;;;;Conditional;;Short unless followed by 45;;;;
-U+0E2;7;U+0E27;Consonant;37;ว;แหวน;wo waen;ring;w;–;[w];–;low;;;;w;Live;approximant;
-U+0E2;8;U+0E28;Consonant;38;ศ;ศาลา;so sala;pavilion, sala;s;t;[s];[t̚];high;;;;t;Dead;plosive;
-U+0E2;9;U+0E29;Consonant;39;ษ;ฤๅษี;so rue-si;hermit;s;t;[s];[t̚];high;;;;t;Dead;plosive;
-U+0E2;A;U+0E2A;Consonant;40;ส;เสือ;so suea;tiger;s;t;[s];[t̚];high;;;;t;Dead;plosive;
-U+0E2;B;U+0E2B;Consonant;41;ห;หีบ;ho hip;chest, box;h;–;[h];–;high;;;;Invalid;Invalid;Invalid;
-U+0E2;C;U+0E2C;Consonant;42;ฬ;จุฬา;lo chu-la;kite;l;n;[l];[n];low;;;;n;Live;sonorant;
-U+0E2;D;U+0E2D;Consonant;43;อ;อ่าง;o ang;basin;–; –;[ʔ];–;mid;;;Zero consonant;UNKNOWN;;;
-U+0E2;E;U+0E2E;Consonant;44;ฮ;นกฮูก;ho nok-huk;owl;h; –;[h];–;low;;;;Invalid;Invalid;Invalid;
-U+0E2;F;U+0E2F;Symbol;;ฯ;ไปยาลน้อย;pai-yan noi;Marks formal phrase shortened by convention (abbreviation).  Previously marked end of a sentence;;;;;;;;;;;;
-U+0E3;0;U+0E30;Vowel;;ะ;;;;a;;;;;Short;;;;;;postposed
-U+0E3;1;U+0E31;Vowel;;ั;;;;a;;;;;Short;;;;;;superposed
-U+0E3;2;U+0E32;Vowel;;า;;;;;;;;;Long;;;;;;postposed
-U+0E3;3;U+0E33;Vowel;;ำ;;;;;;;;;Short;;Extra vowel;;;;postposed
-U+0E3;4;U+0E34;Vowel;;ิ;;;;ee;;;;;Short;;;;;;superposed
-U+0E3;5;U+0E35;Vowel;;ี;;;;ee;;;;;Long;;;;;;superposed
-U+0E3;6;U+0E36;Vowel;;ึ;;;;uea;;;;;Short;;;;;;superposed
-U+0E3;7;U+0E37;Vowel;;ื;;;;uea;;;;;Long;;;;;;superposed
-U+0E3;8;U+0E38;Vowel;;ุ;;;;oo;;;;;Short;;;;;;subposed
-U+0E3;9;U+0E39;Vowel;;ู;;;;oo;;;;;Long;;;;;;subposed
-U+0E3;A;U+0E3A;Sanskrit Symbol;;ฺ;พินทุ ;Pinthu;Indicates vowel is silent.;;;;;;;;;;;;subposed
-U+0E3;B;U+0E3B;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E3;C;U+0E3C;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E3;D;U+0E3D;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E3;E;U+0E3E;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E3;F;U+0E3F;Symbol;;฿;;THB;Baht;;;;;;;;;;;;
-U+0E4;0;U+0E40;Vowel;;เ;ไม้หน้า;Mai na;;;;;;;Conditional;;;;;;preposed
-U+0E4;1;U+0E41;Vowel;;แ;;;;;;;;;Conditional;;;;;;preposed
-U+0E4;2;U+0E42;Vowel;;โ;ไม้โอ;Mai o;;o;;;;;Conditional;;;;;;preposed
-U+0E4;3;U+0E43;Vowel;;ใ;ไม้ม้วน;Mai muan;;;;;;;Short;;;;;;preposed
-U+0E4;4;U+0E44;Vowel;;ไ;ไม้มลาย;Mai malai;;;;;;;Short;;;;;;preposed
-U+0E4;5;U+0E45;Vowel;;ๅ;;;;;;;;;Long;;;;;;postposed
-U+0E4;6;U+0E46;Symbol;;ๆ;ไม้ยมก;Mai ya-mok;preceding word or phrase is reduplicated;;;;;;;;;;;;postposed
-U+0E4;7;U+0E47;Diacritic;;็;ไม้ไต่คู้;Mai taikhu;Shortens vowel;;;;;;;;;;;;superposed
-U+0E4;8;U+0E48;Tone mark;;่;ไม้เอก;;;;;;;;;;;;;;superposed
-U+0E4;9;U+0E49;Tone mark;;้;ไม้โท;;;;;;;;;;;;;;superposed
-U+0E4;A;U+0E4A;Tone mark;;๊;ไม้ตรี;;;;;;;;;;;;;;superposed
-U+0E4;B;U+0E4B;Tone mark;;๋;ไม้จัตวา;;;;;;;;;;;;;;superposed
-U+0E4;C;U+0E4C;Diacritic;;์;ทัณฑฆาต;karan;Indicates silent letter;;;;;;;;;;;;superposed
-U+0E4;D;U+0E4D;Vowel;;ํ;นิคหิต;Nikkhahit;;;;;;;;;;;;;superposed
-U+0E4;E;U+0E4E;Symbol;;๎;ยามักการ;;Sanskrit Symbol;;;;;;;Yes;;;;;superposed
-U+0E4;F;U+0E4F;Symbol;;๏;ตาไก่;Bird's eye;Indicates paragaphs;;;;;;;Yes;;;;;
-U+0E5;0;U+0E50;Numeral;;๐;;;;0;;;;;;;;;;;
-U+0E5;1;U+0E51;Numeral;;๑;;;;1;;;;;;;;;;;
-U+0E5;2;U+0E52;Numeral;;๒;;;;2;;;;;;;;;;;
-U+0E5;3;U+0E53;Numeral;;๓;;;;3;;;;;;;;;;;
-U+0E5;4;U+0E54;Numeral;;๔;;;;4;;;;;;;;;;;
-U+0E5;5;U+0E55;Numeral;;๕;;;;5;;;;;;;;;;;
-U+0E5;6;U+0E56;Numeral;;๖;;;;6;;;;;;;;;;;
-U+0E5;7;U+0E57;Numeral;;๗;;;;7;;;;;;;;;;;
-U+0E5;8;U+0E58;Numeral;;๘;;;;8;;;;;;;;;;;
-U+0E5;9;U+0E59;Numeral;;๙;;;;9;;;;;;;;;;;
-U+0E5;A;U+0E5A;Symbol;;๚;;;Marks the end of a chapter;;;;;;;;;;;;
-U+0E5;B;U+0E5B;Symbol;;๛;โคมูตร;;Marks the end of a chapter or document;;;;;;;;;;;;
-U+0E5;C;U+0E5C;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E5;D;U+0E5D;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E5;E;U+0E5E;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E5;F;U+0E5F;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E6;0;U+0E60;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E6;1;U+0E61;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E6;2;U+0E62;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E6;3;U+0E63;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E6;4;U+0E64;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E6;5;U+0E65;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E6;6;U+0E66;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E6;7;U+0E67;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E6;8;U+0E68;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E6;9;U+0E69;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E6;A;U+0E6A;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E6;B;U+0E6B;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E6;C;U+0E6C;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E6;D;U+0E6D;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E6;E;U+0E6E;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E6;F;U+0E6F;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E7;0;U+0E70;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E7;1;U+0E71;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E7;2;U+0E72;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E7;3;U+0E73;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E7;4;U+0E74;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E7;5;U+0E75;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E7;6;U+0E76;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E7;7;U+0E77;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E7;8;U+0E78;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E7;9;U+0E79;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E7;A;U+0E7A;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E7;B;U+0E7B;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E7;C;U+0E7C;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E7;D;U+0E7D;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E7;E;U+0E7E;Non-assigned;;;;;;;;;;;;;;;;;
-U+0E7;F;U+0E7F;Non-assigned;;;;;;;;;;;;;;;;;
+﻿Unicode;Type;Alphabetical Order;Symbol;Canonical Example;RTGS;Meaning;RGTS (Initial);RGTS (Final);IPA (Initial);IPA (Final);Class;Long or Short;Obsolete?;Notes;Consonant Ending;Dead or Live;Type;Grapheme position
+U+0E00;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E01;Consonant;1;ก;ไก่;ko kai;chicken;k;k;[k];[k̚];mid;;;;k;Dead;plosive;
+U+0E02;Consonant;2;ข;ไข่;kho khai;egg;kh;k;[kʰ];[k̚];high;;;;k;Dead;plosive;
+U+0E03;Consonant;3;ฃ;ขวด;kho khuat;bottle (obsolete);kh;k;[kʰ];[k̚];high;;Yes;;Obsolete;;;
+U+0E04;Consonant;4;ค;ควาย;kho khwai;buffalo;kh;k;[kʰ];[k̚];low;;;;k;Dead;plosive;
+U+0E05;Consonant;5;ฅ;คน;kho khon;person (obsolete);kh;k;[kʰ];[k̚];low;;Yes;;Obsolete;;;
+U+0E06;Consonant;6;ฆ;ระฆัง;kho ra-khang;bell;kh;k;[kʰ];[k̚];low;;;;k;Dead;plosive;
+U+0E07;Consonant;7;ง;งู;ngo ngu;snake;ng;ng;[ŋ];[ŋ];low;;;;ng;Live;sonorant;
+U+0E08;Consonant;8;จ;จาน;cho chan;plate;ch;t;[tɕ];[t̚];mid;;;;t;Dead;plosive;
+U+0E09;Consonant;9;ฉ;ฉิ่ง;cho ching;cymbals;ch; –;[tɕʰ];–;high;;;;Invalid;Invalid;Invalid;
+U+0E0A;Consonant;10;ช;ช้าง;cho chang;elephant;ch;t;[tɕʰ];[t̚];low;;;;t;Dead;plosive;
+U+0E0B;Consonant;11;ซ;โซ่;so so;chain;s;t;[s];[t̚];low;;;;UNKNOWN;;;
+U+0E0C;Consonant;12;ฌ;เฌอ;cho choe;tree;ch; –;[tɕʰ];–;low;;;;t;Dead;plosive;
+U+0E0D;Consonant;13;ญ;หญิง;yo ying;woman;y;n;[j];[n];low;;;;n;Live;sonorant;
+U+0E0E;Consonant;14;ฎ;ชฎา;do cha-da;headdress;d;t;[d];[t̚];mid;;;;t;Dead;plosive;
+U+0E0F;Consonant;15;ฏ;ปฏัก;to pa-tak;goad, javelin;t;t;[t];[t̚];mid;;;;t;Dead;plosive;
+U+0E10;Consonant;16;ฐ;ฐาน;tho than;pedestal;th;t;[tʰ];[t̚];high;;;;t;Dead;plosive;
+U+0E11;Consonant;17;ฑ;มณโฑ;tho montho;Montho, character from Ramayana;th;t;[tʰ];[t̚];low;;;;t;Dead;plosive;
+U+0E12;Consonant;18;ฒ;ผู้เฒ่า;tho phu-thao;elder;th;t;[tʰ];[t̚];low;;;;t;Dead;plosive;
+U+0E13;Consonant;19;ณ;เณร;no nen;samanera;n;n;[n];[n];low;;;;n;Live;sonorant;
+U+0E14;Consonant;20;ด;เด็ก;do dek;child;d;t;[d];[t̚];mid;;;;t;Dead;plosive;
+U+0E15;Consonant;21;ต;เต่า;to tao;turtle;t;t;[t];[t̚];mid;;;;t;Dead;plosive;
+U+0E16;Consonant;22;ถ;ถุง;tho thung;sack;th;t;[tʰ];[t̚];high;;;;t;Dead;plosive;
+U+0E17;Consonant;23;ท;ทหาร;tho thahan;soldier;th;t;[tʰ];[t̚];low;;;;t;Dead;plosive;
+U+0E18;Consonant;24;ธ;ธง;tho thong;flag;th;t;[tʰ];[t̚];low;;;;t;Dead;plosive;
+U+0E19;Consonant;25;น;หนู;no nu;mouse;n;n;[n];[n];low;;;;n;Live;sonorant;
+U+0E1A;Consonant;26;บ;ใบไม้;bo baimai;leaf;b;p;[b];[p̚];mid;;;;p;Dead;plosive;
+U+0E1B;Consonant;27;ป;ปลา;po pla;fish;p;p;[p];[p̚];mid;;;;p;Dead;plosive;
+U+0E1C;Consonant;28;ผ;ผึ้ง;pho phueng;bee;ph; –;[pʰ];–;high;;;;Invalid;Invalid;Invalid;
+U+0E1D;Consonant;29;ฝ;ฝา;fo fa;lid;f; –;[f];–;high;;;;Invalid;Invalid;Invalid;
+U+0E1E;Consonant;30;พ;พาน;pho phan;phan;ph;p;[pʰ];[p̚];low;;;;p;Dead;plosive;
+U+0E1F;Consonant;31;ฟ;ฟัน;fo fan;teeth;f;p;[f];[p̚];low;;;;p;Dead;plosive;
+U+0E20;Consonant;32;ภ;สำเภา;pho sam-phao;Junk;ph;p;[pʰ];[p̚];low;;;;UNKNOWN;;;
+U+0E21;Consonant;33;ม;ม้า;mo ma;horse;m;m;[m];[m];low;;;;m;Live;sonorant;
+U+0E22;Consonant;34;ย;ยักษ์;yo yak;giant, yaksha;y;– ;[j];– ;low;;;;y;Live;approximant;
+U+0E23;Consonant;35;ร;เรือ;ro ruea;boat;r;n;[r];[n];low;;;;n;Live;sonorant;
+U+0E24;Vowel;;ฤ;;;;rue;;;;;Conditional;;Short unless followed by 45;;;;UNKNOWN
+U+0E25;Consonant;36;ล;ลิง;lo ling;monkey;l;n;[l];[n];low;;;;n;Live;sonorant;
+U+0E26;Vowel;;ฦ;;;;lue;;;;;Conditional;;Short unless followed by 45;;;;UNKNOWN
+U+0E27;Consonant;37;ว;แหวน;wo waen;ring;w;–;[w];–;low;;;;w;Live;approximant;
+U+0E28;Consonant;38;ศ;ศาลา;so sala;pavilion, sala;s;t;[s];[t̚];high;;;;t;Dead;plosive;
+U+0E29;Consonant;39;ษ;ฤๅษี;so rue-si;hermit;s;t;[s];[t̚];high;;;;t;Dead;plosive;
+U+0E2A;Consonant;40;ส;เสือ;so suea;tiger;s;t;[s];[t̚];high;;;;t;Dead;plosive;
+U+0E2B;Consonant;41;ห;หีบ;ho hip;chest, box;h;–;[h];–;high;;;;Invalid;Invalid;Invalid;
+U+0E2C;Consonant;42;ฬ;จุฬา;lo chu-la;kite;l;n;[l];[n];low;;;;n;Live;sonorant;
+U+0E2D;Consonant;43;อ;อ่าง;o ang;basin;–; –;[ʔ];–;mid;;;Zero consonant;UNKNOWN;;;
+U+0E2E;Consonant;44;ฮ;นกฮูก;ho nok-huk;owl;h; –;[h];–;low;;;;Invalid;Invalid;Invalid;
+U+0E2F;Symbol;;ฯ;ไปยาลน้อย;pai-yan noi;Marks formal phrase shortened by convention (abbreviation).  Previously marked end of a sentence;;;;;;;;;;;;
+U+0E30;Vowel;;ะ;;;;a;;;;;Short;;;;;;postposed
+U+0E31;Vowel;;ั;;;;a;;;;;Short;;;;;;superposed
+U+0E32;Vowel;;า;;;;;;;;;Long;;;;;;postposed
+U+0E33;Vowel;;ำ;;;;;;;;;Short;;Extra vowel;;;;postposed
+U+0E34;Vowel;;ิ;;;;ee;;;;;Short;;;;;;superposed
+U+0E35;Vowel;;ี;;;;ee;;;;;Long;;;;;;superposed
+U+0E36;Vowel;;ึ;;;;uea;;;;;Short;;;;;;superposed
+U+0E37;Vowel;;ื;;;;uea;;;;;Long;;;;;;superposed
+U+0E38;Vowel;;ุ;;;;oo;;;;;Short;;;;;;subposed
+U+0E39;Vowel;;ู;;;;oo;;;;;Long;;;;;;subposed
+U+0E3A;Diacritic;;ฺ;พินทุ ;Pinthu;Indicates vowel is silent.;;;;;;;;Comes from Sanskrit.;;;;subposed
+U+0E3B;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E3C;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E3D;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E3E;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E3F;Symbol;;฿;;THB;Baht;;;;;;;;;;;;
+U+0E40;Vowel;;เ;ไม้หน้า;Mai na;;;;;;;Conditional;;;;;;preposed
+U+0E41;Vowel;;แ;;;;;;;;;Conditional;;;;;;preposed
+U+0E42;Vowel;;โ;ไม้โอ;Mai o;;o;;;;;Conditional;;;;;;preposed
+U+0E43;Vowel;;ใ;ไม้ม้วน;Mai muan;;;;;;;Short;;;;;;preposed
+U+0E44;Vowel;;ไ;ไม้มลาย;Mai malai;;;;;;;Short;;;;;;preposed
+U+0E45;Vowel;;ๅ;;;;;;;;;Long;;;;;;postposed
+U+0E46;Symbol;;ๆ;ไม้ยมก;Mai ya-mok;preceding word or phrase is reduplicated;;;;;;;;;;;;postposed
+U+0E47;Diacritic;;็;ไม้ไต่คู้;Mai taikhu;Shortens vowel;;;;;;;;;;;;superposed
+U+0E48;Tone mark;;่;ไม้เอก;;;;;;;;;;;;;;superposed
+U+0E49;Tone mark;;้;ไม้โท;;;;;;;;;;;;;;superposed
+U+0E4A;Tone mark;;๊;ไม้ตรี;;;;;;;;;;;;;;superposed
+U+0E4B;Tone mark;;๋;ไม้จัตวา;;;;;;;;;;;;;;superposed
+U+0E4C;Diacritic;;์;ทัณฑฆาต;karan;Indicates silent letter;;;;;;;;;;;;superposed
+U+0E4D;Vowel;;ํ;นิคหิต;Nikkhahit;;;;;;;UNKNOWN;;;;;;superposed
+U+0E4E;Diacritic;;๎;ยามักการ;Yamakkan ;Sanskrit Symbol;;;;;;;Yes;Obsolete, marks the beginning of consonant clusters;;;;superposed
+U+0E4F;Symbol;;๏;ตาไก่;Bird's eye;Indicates paragaphs;;;;;;;Yes;;;;;
+U+0E50;Numeral;;๐;;;;0;;;;;;;;;;;
+U+0E51;Numeral;;๑;;;;1;;;;;;;;;;;
+U+0E52;Numeral;;๒;;;;2;;;;;;;;;;;
+U+0E53;Numeral;;๓;;;;3;;;;;;;;;;;
+U+0E54;Numeral;;๔;;;;4;;;;;;;;;;;
+U+0E55;Numeral;;๕;;;;5;;;;;;;;;;;
+U+0E56;Numeral;;๖;;;;6;;;;;;;;;;;
+U+0E57;Numeral;;๗;;;;7;;;;;;;;;;;
+U+0E58;Numeral;;๘;;;;8;;;;;;;;;;;
+U+0E59;Numeral;;๙;;;;9;;;;;;;;;;;
+U+0E5A;Symbol;;๚;;;Marks the end of a chapter;;;;;;;;;;;;
+U+0E5B;Symbol;;๛;โคมูตร;;Marks the end of a chapter or document;;;;;;;;;;;;
+U+0E5C;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E5D;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E5E;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E5F;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E60;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E61;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E62;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E63;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E64;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E65;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E66;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E67;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E68;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E69;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E6A;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E6B;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E6C;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E6D;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E6E;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E6F;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E70;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E71;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E72;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E73;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E74;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E75;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E76;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E77;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E78;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E79;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E7A;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E7B;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E7C;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E7D;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E7E;Non-assigned;;;;;;;;;;;;;;;;;
+U+0E7F;Non-assigned;;;;;;;;;;;;;;;;;
