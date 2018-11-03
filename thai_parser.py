@@ -155,15 +155,36 @@ def parse_string(s):
         if not 0xe00 < ord(c) < 0xe80:
             raise Exception('This is not Thai text')
 
-    return [s]
+    s_arr = []
 
     i = 0
+    current_start = 0
+    initial_consonant = ''
+    vowel = ''
+    final_consonant = ''
     while i < len(s):
-        # Find a syllable
-        cur_syllable = []
-        ch = s[i]
-        if thai[thai["Symbol"] == ch]["Type"] == "consonant":
-            cur_syllable.append(ch)
+        cur_type = thai[thai["Symbol"] == s[i]]["Type"].values[0]
+
+        if cur_type == "Consonant":
+            if initial_consonant == '':
+                initial_consonant = s[i]
+                i += 1
+                continue
+            else:
+                if vowel == '':
+                    initial_consonant = initial_consonant + s[i]
+                    i += 1
+                    continue
+                else:
+                    final_consonant = s[i]
+                    s_arr.append(s[current_start:i+1])
+                    i += 1
+                    current_start = i                    
+                    continue
+        elif cur_type == "Vowel":
+            vowel = s[i]
+            i += 1
+            continue
 
 exs1 = 'กับ'   # "For"
 exs2 = 'กับกับ'  # just a doubling of the first example 
