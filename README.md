@@ -20,6 +20,7 @@ of consonants surrounded by vowels and tone markings.
 The Unicode block for Thai is from code points 0xE00 to 0xE7F.
 
 Of the 128 graphemes in that range:
+
     44 are consonants (of which two, ฃ and ฅ, are obsolete)
     41 are left unassigned
     10 are the Thai numerals from 0 to 9
