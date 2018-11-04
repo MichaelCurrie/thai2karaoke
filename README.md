@@ -61,6 +61,8 @@ Wirote Aroonmanakun.  Thoughts on word and sentence segmentation in Thai.  https
 
 Chart of Thai tone rules.  http://womenlearnthai.com/index.php/finding-the-tone-of-a-thai-syllable/
 
+Syllables of the Thai language.  Theo Pitsch.  http://www.clickthai-online.com/basics/syllables.html
+
 Brian Ray.  Parsing a custom syntax with a finite state machine (FSM).  https://medium.com/@brianray_7981/tutorial-write-a-finite-state-machine-to-parse-a-custom-language-in-pure-python-1c11ade9bd43
 
 Thai word list.  https://lingopolo.org/thai/words-by-frequency
