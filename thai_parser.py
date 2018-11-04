@@ -88,6 +88,29 @@ Second character:
 Third character:
     ...
 
+ending_consonant:
+-----------------
+
+... Determine if the syllable is open or closed (i.e. does it have a final
+consonant.)
+
+http://www.thai-language.com/ref/consonant-endings
+
+Invalid consonant endings: -ฉ -ผ -ฝ -ห -ฮ
+
+The remainder are either live or dead.  They are grouped for Thai children
+when learning the language into 8 word-ending protocols, or "มาตรา", commonly
+called "แม่".
+
+    n live sonorant
+    ng live sonorant
+    m live sonorant
+    y live approximant
+    w live approximant
+    k dead
+    p dead
+    t dead
+
 
 Usage
 =====
@@ -202,6 +225,10 @@ thai = pd.read_csv('thai.csv', ';')
 PREPOSED_VOWELS = thai[
     thai["Grapheme position"] == "preposed"]["Symbol"].tolist()
 
+exs1 = 'กับ'   # "For"
+exs2 = 'กับกับ'  # just a doubling of the first example 
+exs3 = 'ควาย'  # Buffalo
+
 def parse_string(s):
     """ Take string of Thai text s and return an array of syllables
     """
@@ -240,7 +267,3 @@ def parse_string(s):
             vowel = s[i]
             i += 1
             continue
-
-exs1 = 'กับ'   # "For"
-exs2 = 'กับกับ'  # just a doubling of the first example 
-exs3 = 'ควาย'  # Buffalo
