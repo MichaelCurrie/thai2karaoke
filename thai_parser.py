@@ -57,6 +57,37 @@ initial_consonant = ต
 later_vowels = ีย
 final_consonant = ง
 
+Algorithm pseudocode
+====================
+
+1. Remove:
+    all symbols, diacritics, unassigned graphemes from the Thai unicode block.
+    all characters not from Thai unicode block.
+    whitespace
+2. Accumulate numerals into blocks.
+3. All characters left are either a consonant, vowel, or tone marker.
+4. Recusively apply the algorithm to the remaining blocks.
+
+First character:
+    consonant?  add to initial_consonant.
+    preposed vowel?  add to preposed_vowel.
+    non-preposed vowel?  ERROR.
+    tone marker?  ERROR.
+
+Second character:
+    does not exist?  then DONE.
+    consonant?  if previous character was also consonant, decide if:
+        1. this consonant is also in the initial consonant
+        2. this consonant is the final consonant, and there is an implied vowel
+        3. this consonant is in the next syllable (i.e. we are DONE)
+    vowel?  if previous character was also a vowel, ERROR.  if not, add to vowel.
+    tone marker?
+        if previous character was not a consonant, ERROR.
+        otherwise, add to tone_marker.
+
+Third character:
+    ...
+
 
 Usage
 =====
