@@ -54,6 +54,8 @@ Every syllable consists of:
 Works cited
 ===========
 
+Worapong Khumthong ("ComdevX").  For the original Javascript thai2karaoke repository. 
+
 thai-language.com, by [Glenn Slayden](https://www.linkedin.com/in/glennslayden/).  http://www.thai-language.com/id/830221
 
 Siripong Potisuk.  Prosodic Annotation in a Thai Text-to-speech System.  http://www.aclweb.org/anthology/Y07-1042
