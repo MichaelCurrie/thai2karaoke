@@ -63,6 +63,9 @@ Chart of Thai tone rules.  http://womenlearnthai.com/index.php/finding-the-tone-
 
 Brian Ray.  Parsing a custom syntax with a finite state machine (FSM).  https://medium.com/@brianray_7981/tutorial-write-a-finite-state-machine-to-parse-a-custom-language-in-pure-python-1c11ade9bd43
 
+Thai word list.  https://lingopolo.org/thai/words-by-frequency
+
+
 Original documentation:
 =======================
 Project: thai2karaoke<br />

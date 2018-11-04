@@ -138,8 +138,6 @@ Testing
 ...     thai_text = ex_thai.read()
 ...     assert(thai_text.encode('karaoke').decode('karaoke') == thai_text
 
-# TODO: test the syllable parser explicitly.
-
 """
 
 import pandas as pd
