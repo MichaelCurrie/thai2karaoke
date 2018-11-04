@@ -169,7 +169,7 @@ class thai_syllable:
 thai = pd.read_csv('thai.csv', ';')
 
 PREPOSED_VOWELS = thai[
-    thai["Grapheme position"] == "preposed"]["Symbol"].values
+    thai["Grapheme position"] == "preposed"]["Symbol"].tolist()
 
 def parse_string(s):
     """ Take string of Thai text s and return an array of syllables
