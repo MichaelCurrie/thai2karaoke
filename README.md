@@ -1,4 +1,70 @@
 # thai2karaoke
+
+thai_parser: A Thai abugida text codec
+
+A custom text codec for encoding and decoding strings drawn from the
+Thai abugida into romanized "Karaoke" strings.
+
+The design philosophy here is to use a data-based approach.  So instead of 
+hardcoding the pronunciation rules into the code, we load a metadata file,
+thai.csv, using `pandas`, and then use the `codec` library to create standard
+encoding and decoding semantics.
+
+About the Thai abugida
+======================
+
+The Thai abugida, said to have been invented by King Ramkhamhaeng the Great
+around 1283, consists of words consisting of syllables, which are composed
+of consonants surrounded by vowels and tone markings.
+
+The Unicode block for Thai is from code points 0xE00 to 0xE7F.
+
+Of the 128 graphemes in that range:
+    44 are consonants (of which two, ฃ and ฅ, are obsolete)
+    41 are left unassigned
+    10 are the Thai numerals from 0 to 9
+    19 are vowels
+    4 are tone markers (่, ้, ๊, ๋)
+    4 are diacritics
+        ็ shortens the vowel
+        ฺ indicates that the vowel should not be pronounced
+        ์ indicates a silent letter
+        ๎ "yamakkan", from Sanskrit (obsolete)
+    6 are symbols
+        ๆ indicates that the preceding word should be duplicated
+        ฿ Thai Baht currency symbol
+        ฯ end of sentence
+        ๏ end of paragraph (obsolete)
+        ๚ end of chapter
+        ๛ end of document
+
+Rules
+=====
+Every syllable consists of:
+1. Preposed vowel (optional)
+2. Initial consonant
+3. Implied vowel (optional)
+4. Postposted, superposed, or subposed vowels (optional)
+5. Consonants ย, ว, or อ appearing as part of a compound vowel (optional)
+6. Tone marker (optional)
+7. Final consonant (optional)
+- Diacritics (currently removed from parsed text)
+
+Works cited
+===========
+
+thai-language.com, by [Glenn Slayden](https://www.linkedin.com/in/glennslayden/).  http://www.thai-language.com/id/830221
+
+Siripong Potisuk.  Prosodic Annotation in a Thai Text-to-speech System.  http://www.aclweb.org/anthology/Y07-1042
+
+Wirote Aroonmanakun.  Thoughts on word and sentence segmentation in Thai.  https://www.researchgate.net/publication/27808921_Thoughts_on_word_and_sentence_segmentation_in_Thai
+
+Chart of Thai tone rules.  http://womenlearnthai.com/index.php/finding-the-tone-of-a-thai-syllable/
+
+Brian Ray.  Parsing a custom syntax with a finite state machine (FSM).  https://medium.com/@brianray_7981/tutorial-write-a-finite-state-machine-to-parse-a-custom-language-in-pure-python-1c11ade9bd43
+
+Original documentation:
+=======================
 Project: thai2karaoke<br />
 Created: Comdevx<br />
 Email: comdevx@gmail.com<br />
