@@ -18,7 +18,7 @@ of consonants surrounded by vowels and tone markings.
 
 The Unicode block for Thai is from code points 0xE00 to 0xE7F.
 
-Of the 128 code points in that range:
+Of the 128 graphemes in that range:
     44 are consonants (of which two, ฃ and ฅ, are obsolete)
     41 are left unassigned
     10 are the Thai numerals from 0 to 9
@@ -36,6 +36,27 @@ Of the 128 code points in that range:
         ๏ end of paragraph (obsolete)
         ๚ end of chapter
         ๛ end of document
+
+Rules
+=====
+See http://www.thai-language.com/id/830221
+
+Every syllable consists of:
+1. Preposed vowel (optional)
+2. Initial consonant
+3. Implied vowel (optional)
+4. Postposted, superposed, or subposed vowels (optional)
+5. Consonants ย, ว, or อ appearing as part of a compound vowel (optional)
+6. Tone marker (optional)
+7. Final consonant (optional)
+- Diacritics (currently removed from parsed text)
+
+e.g. เตียง
+preposed_vowels = เ
+initial_consonant = ต
+later_vowels = ีย
+final_consonant = ง
+
 
 Usage
 =====
@@ -146,6 +167,9 @@ class thai_syllable:
                         return 'mid'
 
 thai = pd.read_csv('thai.csv', ';')
+
+PREPOSED_VOWELS = thai[
+    thai["Grapheme position"] == "preposed"]["Symbol"].values
 
 def parse_string(s):
     """ Take string of Thai text s and return an array of syllables
