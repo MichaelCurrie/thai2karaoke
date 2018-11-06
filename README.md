@@ -7,11 +7,11 @@ Thai abugida into romanized "Karaoke" strings.
 
 ### Usage
 
->>> import thai_parser
->>> 'กับ'.encode('karaoke')
-kab
->>> 'sawadee krub'.decode('karaoke')
-สวัสดีครับ
+    >>> import thai_parser
+    >>> 'กับ'.encode('karaoke')
+    kab
+    >>> 'sawadee krub'.decode('karaoke')
+    สวัสดีครับ
 
 ### About this repo
 
