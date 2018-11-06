@@ -5,13 +5,22 @@ thai_parser: A Thai abugida text codec
 A custom text codec for encoding and decoding strings drawn from the
 Thai abugida into romanized "Karaoke" strings.
 
+### Usage
+
+>>> import thai_parser
+>>> 'กับ'.encode('karaoke')
+kab
+>>> 'sawadee krub'.decode('karaoke')
+สวัสดีครับ
+
+### About this repo
+
 The design philosophy here is to use a data-based approach.  So instead of 
 hardcoding the pronunciation rules into the code, we load a metadata file,
 thai.csv, using `pandas`, and then use the `codec` library to create standard
 encoding and decoding semantics.
 
-About the Thai abugida
-======================
+### About the Thai abugida
 
 The Thai abugida, said to have been invented by King Ramkhamhaeng the Great
 around 1283, consists of words consisting of syllables, which are composed
